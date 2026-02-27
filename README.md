@@ -31,3 +31,60 @@ python calculator.py
 
 # Run tests
 python -m unittest test_calculator.py -v
+
+🧪 Running Tests
+
+Bash
+
+python test_calculator.py
+
+Expected output:
+
+text
+
+test_add (__main__.TestCalculator) ... ok
+test_divide (__main__.TestCalculator) ... ok
+test_divide_by_zero (__main__.TestCalculator) ... ok
+test_multiply (__main__.TestCalculator) ... ok
+test_power (__main__.TestCalculator) ... ok
+test_subtract (__main__.TestCalculator) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.001s
+
+OK
+
+🔄 CI/CD Pipeline
+
+The GitHub Actions workflow automatically:
+
+    Runs unit tests on every push and pull request
+    Tests across multiple Python versions (3.9, 3.10, 3.11)
+    Performs code quality checks using flake8
+    Displays build status with a badge
+
+Pipeline Configuration
+
+See .github/workflows/ci.yml for the complete workflow.
+📚 What I Learned
+
+    Setting up automated testing with GitHub Actions
+    Writing unit tests with Python's unittest framework
+    Implementing CI/CD best practices
+    Multi-version testing strategies
+    Code quality automation with linting tools
+
+🎯 Purpose
+
+This project demonstrates my understanding of:
+
+    DevOps principles (automation, testing, continuous integration)
+    Python development (clean code, documentation, error handling)
+    Quality assurance (unit testing, test coverage, edge cases)
+    Version control workflows (Git, GitHub, CI/CD pipelines)
+
+Built as part of my DevOps engineering learning journey.
+📧 Contact
+
+Juan Palomares
+GitHub: @juan-palomares
