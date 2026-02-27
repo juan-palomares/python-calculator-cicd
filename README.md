@@ -31,15 +31,15 @@ python calculator.py
 
 # Run tests
 python -m unittest test_calculator.py -v
-
-🧪 Running Tests
-
+```
+## 🧪 Running Tests
+```
 Bash
 
 python test_calculator.py
-
+```
 Expected output:
-
+```
 text
 
 test_add (__main__.TestCalculator) ... ok
@@ -53,8 +53,8 @@ test_subtract (__main__.TestCalculator) ... ok
 Ran 6 tests in 0.001s
 
 OK
-
-🔄 CI/CD Pipeline
+```
+## 🔄 CI/CD Pipeline
 
 The GitHub Actions workflow automatically:
 
@@ -66,7 +66,7 @@ The GitHub Actions workflow automatically:
 Pipeline Configuration
 
 See .github/workflows/ci.yml for the complete workflow.
-📚 What I Learned
+## 📚 What I Learned
 
     Setting up automated testing with GitHub Actions
     Writing unit tests with Python's unittest framework
